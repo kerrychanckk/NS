@@ -8,11 +8,21 @@
         body {
             font-family: Arial, sans-serif;
             background-color: black;
+            background-image: url('1.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
             color: white;
             line-height: 1.6;
+            margin: 0;
             padding: 20px;
+        }
+        .content {
             max-width: 800px;
             margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
         }
         h1, h2 {
             color: #ffd700;
@@ -32,31 +42,40 @@
             width: 100%;
             height: 100%;
         }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>國家航天科技知多少</h1>
+    <div class="content">
+        <h1>國家航天科技知多少</h1>
 
-    <h2>太空人英文不是 Astronaut？中國太空人專用英文名：Taikonaut</h2>
-    <p>目前全球只有3個能獨立進行載人航天的國家，彼此對「太空人」叫法並不相同，俄羅斯的稱為「Cosmonauts」，美國的稱為「Astronauts」，意思與「Cosmonaut」大致相同，都是源於「宇宙」，故一些嚴謹的內地媒體仍會把美、俄的太空人，包括乘搭美俄航天器上天的其他國家太空人，稱為「宇航員」。</p>
-    <p>那中國的「太空人」又是否自己的稱呼？有的，隨中國航天事業高速發展，他們已有了「Taikonaut」的專屬名稱；"Taikonaut"是一個混合詞，由中文「太空」（tài kōng）和英文「宇航員」（astronaut）組成，已被牛津詞典收錄，意思為「Chinese astronaut」。</p>
+        <h2>太空人英文不是 Astronaut？中國太空人專用英文名：Taikonaut</h2>
+        <p>目前全球只有3個能獨立進行載人航天的國家，彼此對「太空人」叫法並不相同，俄羅斯的稱為「Cosmonauts」，美國的稱為「Astronauts」，意思與「Cosmonaut」大致相同，都是源於「宇宙」，故一些嚴謹的內地媒體仍會把美、俄的太空人，包括乘搭美俄航天器上天的其他國家太空人，稱為「宇航員」。</p>
+        <p>那中國的「太空人」又是否自己的稱呼？有的，隨中國航天事業高速發展，他們已有了「Taikonaut」的專屬名稱；"Taikonaut"是一個混合詞，由中文「太空」（tài kōng）和英文「宇航員」（astronaut）組成，已被牛津詞典收錄，意思為「Chinese astronaut」。</p>
 
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/RW7UJY-NQtI" frameborder="0" allowfullscreen></iframe>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/RW7UJY-NQtI" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/7k46cTtqLWA" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <h2>中國航天服為甚麼是白色？</h2>
+        <p>中國太空人的航天服主要分為艙內、艙外兩種。其中艙內航天服是太空人乘飛船升空、返回地球時穿着的那一件，它是應急情況下保障太空人安全的個人防護裝置。</p>
+        <p>中國艙內航天服是以白色為主色，是與方便救援有關。因為升空和返回，是載人航天中最危險的飛行時段，太空人一旦遇險要逃生，地面人員便須展開搜救。在這情況下，白色艙內航天服會較為醒目，尤其是在草原和沙漠上，最易被發現。</p>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/zFZJcmc7wPI" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <p>資料來源: <a href="https://www.ourchinastory.com/zh/5167">https://www.ourchinastory.com/zh/5167</a></p>
     </div>
-
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/7k46cTtqLWA" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <h2>中國航天服為甚麼是白色？</h2>
-    <p>中國太空人的航天服主要分為艙內、艙外兩種。其中艙內航天服是太空人乘飛船升空、返回地球時穿着的那一件，它是應急情況下保障太空人安全的個人防護裝置。</p>
-    <p>中國艙內航天服是以白色為主色，是與方便救援有關。因為升空和返回，是載人航天中最危險的飛行時段，太空人一旦遇險要逃生，地面人員便須展開搜救。在這情況下，白色艙內航天服會較為醒目，尤其是在草原和沙漠上，最易被發現。</p>
-
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/zFZJcmc7wPI" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <p>資料來源: <a href="https://www.ourchinastory.com/zh/5167" style="color: #ffd700;">https://www.ourchinastory.com/zh/5167</a></p>
 </body>
 </html>
